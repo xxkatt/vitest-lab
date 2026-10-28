@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`测试快照 > 将对象保存为外部快照 1`] = `
+{
+  "name": "张三",
+  "role": "管理员",
+}
+`;
+
+exports[`测试快照 > 用属性匹配器处理动态时间 1`] = `
+{
+  "createdAt": Any<Date>,
+  "name": "张三",
+}
+`;
